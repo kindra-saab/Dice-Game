@@ -28,5 +28,5 @@ else
     document.querySelector("h1").innerHTML="😜Match Draws";
 }
 
-document.querySelector(".img1").setAttribute("src","images/"+diceName1);
-document.querySelector(".img2").setAttribute("src","images/"+diceName2);
+document.querySelector(".img1").setAttribute("src",diceName1);
+document.querySelector(".img2").setAttribute("src",diceName2);
